@@ -7,7 +7,7 @@ https://en.wikipedia.org/wiki/Shebang_(Unix)
 
 "https://stackoverflow.com/questions/10712002/create-an-empty-list-in-python-with-certain-size"
 
-from dcode_exercise_1a import my_function
+from dcode_exercise_1a import my_function, liste_verschieben
 '''
 https://www.digitalocean.com/community/tutorials/how-to-write-modules-in-python-3
 https://www.digitalocean.com/community/tutorials/how-to-import-modules-in-python-3#using-from--import
@@ -22,12 +22,15 @@ num2 = int(var2) # die Zahl K wird abgespeichert in der Variablen num2
 
 b = my_function(num1)# hier werden die Werte der 'fertigen' Liste aus dem Modul in der Variablen b abgespeichert
 print (my_function(num1)) # hier wird die im Modul definierte Liste auf den Bildschirm ausgegeben,
-neueListe = [] #gebe den Datentyp Liste vor, die keine Werte enthaelt
-for everyElement in range(len(b)):
+neueListe2= [] #gebe den Datentyp Liste vor, die keine Werte enthaelt
+for everyElement in range(len(b)): # range - Aufruf erzeugt eine Wertetabelle von 0 beginnend bis len(b)-1
+    print(len(b))
     IndexElement = [b[everyElement]] #die Innere Klammer gibt den Wert der Liste b mit einem bestimmten Index zurueck. Danach wird der Datentyp 'list' erzwungen
-    neueListe.extend(IndexElement)
-#    print("Jeder Schritt der for Schleife:", neueListe)
-print("Furz", neueListe)
+    neueListe2.extend(IndexElement)
+    print("Jeder Schritt der for Schleife:", neueListe2)
+print("Furz", neueListe2)
+
+print(liste_verschieben(b,num2))
 
 
 

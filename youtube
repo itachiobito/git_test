@@ -1,0 +1,17 @@
+Prerequisites:
+
+1. Atom
+2. git bash for Windows
+
+
+3. Exercise1a:
+Declare a function that is creating a list of numbers. The list should contain as many numbers you want it to have.
+So the 'program' should ask for the number of elements in the list. In other words, the length of this list. Print the output of that list.
+You should define a module and use the self declared function.
+
+
+
+
+Help: Read the following articles:
+https://stackoverflow.com/questions/10712002/create-an-empty-list-in-python-with-certain-size
+https://www.digitalocean.com/community/tutorials/how-to-write-modules-in-python-3

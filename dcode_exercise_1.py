@@ -12,7 +12,9 @@ from dcode_exercise_1a import my_function
 # print('Gib die Laenge N der Liste an:')
 var = input()
 num = int(var)
+b = my_function(num) # hier speichere ich den Rueckgabewert aus der Datei dcode_exercise_1a in einer neuen Variablen ab
 print my_function(num)
+print b
 
 
 """
